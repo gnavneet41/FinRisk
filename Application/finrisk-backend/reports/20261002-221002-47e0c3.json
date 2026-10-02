@@ -1,0 +1,807 @@
+{
+  "id": "20261002-221002-47e0c3",
+  "created_at": "2026-10-02T16:40:02.031Z",
+  "updated_at": "2026-10-02T16:40:25.725Z",
+  "status": "completed",
+  "document": {
+    "filename": "Apple_10K_Simplified_Financial_Report.pdf",
+    "mimetype": "application/pdf",
+    "size_bytes": 622397
+  },
+  "extracted_data": {
+    "company": "Apple Inc.",
+    "fiscal_year": "FY2024",
+    "revenue": 391035,
+    "cost_of_goods_sold": 210352,
+    "gross_profit": 180683,
+    "operating_expenses": 57467,
+    "operating_income": 123216,
+    "income_before_tax": 123485,
+    "income_tax": 29749,
+    "net_income": 93736,
+    "diluted_eps": 6.08,
+    "cash": 29943,
+    "short_term_investments": 35228,
+    "accounts_receivable": 33410,
+    "inventory": 7286,
+    "current_assets": 152987,
+    "total_assets": 364980,
+    "accounts_payable": 68960,
+    "short_term_debt": 20879,
+    "current_liabilities": 176392,
+    "long_term_debt": 85750,
+    "total_liabilities": 308030,
+    "total_equity": 56950,
+    "operating_cash_flow": 118254,
+    "investing_cash_flow": 2935,
+    "financing_cash_flow": -121983,
+    "net_cash_change": -794,
+    "beginning_cash": 30737,
+    "ending_cash": 29943,
+    "total_debt": 106629
+  },
+  "financial_data": {
+    "company": "Apple Inc.",
+    "fiscal_year": "FY2024",
+    "revenue": 391035,
+    "cost_of_goods_sold": 210352,
+    "gross_profit": 180683,
+    "operating_expenses": 57467,
+    "operating_income": 123216,
+    "income_before_tax": 123485,
+    "income_tax": 29749,
+    "net_income": 93736,
+    "diluted_eps": 6.08,
+    "cash": 29943,
+    "short_term_investments": 35228,
+    "accounts_receivable": 33410,
+    "inventory": 7286,
+    "current_assets": 152987,
+    "total_assets": 364980,
+    "accounts_payable": 68960,
+    "short_term_debt": 20879,
+    "current_liabilities": 176392,
+    "long_term_debt": 85750,
+    "total_liabilities": 308030,
+    "total_equity": 56950,
+    "operating_cash_flow": 118254,
+    "investing_cash_flow": 2935,
+    "financing_cash_flow": -121983,
+    "net_cash_change": -794,
+    "beginning_cash": 30737,
+    "ending_cash": 29943,
+    "total_debt": 106629
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "summary": {
+      "total_errors": 0,
+      "total_warnings": 0
+    }
+  },
+  "corrected_fields": [],
+  "analysis_plan": {
+    "analysis_categories": [
+      "liquidity_analysis",
+      "solvency_analysis",
+      "profitability_analysis",
+      "efficiency_analysis",
+      "cash_flow_analysis",
+      "balance_sheet_analysis",
+      "income_statement_analysis",
+      "cash_flow_statement_analysis"
+    ],
+    "selected_calculations": [
+      "current_ratio",
+      "quick_ratio",
+      "cash_ratio",
+      "debt_to_equity",
+      "debt_ratio",
+      "liabilities_to_assets",
+      "gross_margin",
+      "operating_margin",
+      "net_profit_margin",
+      "return_on_assets",
+      "return_on_equity",
+      "asset_turnover",
+      "inventory_turnover",
+      "receivables_turnover",
+      "cfo_to_current_liabilities"
+    ],
+    "observations": [
+      {
+        "key": "net_income",
+        "value": "93736",
+        "reason": "The company reported positive net income."
+      },
+      {
+        "key": "operating_cash_flow",
+        "value": "118254",
+        "reason": "Operating activities generated positive cash flow."
+      },
+      {
+        "key": "investing_cash_flow",
+        "value": "2935",
+        "reason": "Investing activities produced a net cash inflow."
+      },
+      {
+        "key": "financing_cash_flow",
+        "value": "-121983",
+        "reason": "Financing activities produced a net cash outflow."
+      },
+      {
+        "key": "net_cash_change",
+        "value": "-794",
+        "reason": "Cash decreased over the period."
+      }
+    ],
+    "unavailable_calculations": [],
+    "rejected_calculations": [],
+    "generated_by": {
+      "method": "rule_based",
+      "llm_error": "Gemini API error 429 (model gemini-3.8-flash): {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 7h19m42.231667323s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n"
+    }
+  },
+  "analysis": {
+    "company": "Apple Inc.",
+    "fiscal_year": "FY2024",
+    "available_data": {
+      "company": "Apple Inc.",
+      "fiscal_year": "FY2024",
+      "revenue": 391035,
+      "cost_of_goods_sold": 210352,
+      "gross_profit": 180683,
+      "operating_expenses": 57467,
+      "operating_income": 123216,
+      "income_before_tax": 123485,
+      "income_tax": 29749,
+      "net_income": 93736,
+      "diluted_eps": 6.08,
+      "cash": 29943,
+      "short_term_investments": 35228,
+      "accounts_receivable": 33410,
+      "inventory": 7286,
+      "current_assets": 152987,
+      "total_assets": 364980,
+      "accounts_payable": 68960,
+      "short_term_debt": 20879,
+      "current_liabilities": 176392,
+      "long_term_debt": 85750,
+      "total_liabilities": 308030,
+      "total_equity": 56950,
+      "operating_cash_flow": 118254,
+      "investing_cash_flow": 2935,
+      "financing_cash_flow": -121983,
+      "net_cash_change": -794,
+      "beginning_cash": 30737,
+      "ending_cash": 29943,
+      "total_debt": 106629
+    },
+    "unavailable_keys": [],
+    "analysis_categories": [
+      "liquidity_analysis",
+      "solvency_analysis",
+      "profitability_analysis",
+      "efficiency_analysis",
+      "cash_flow_analysis",
+      "balance_sheet_analysis",
+      "income_statement_analysis",
+      "cash_flow_statement_analysis"
+    ],
+    "observations": [
+      {
+        "key": "net_income",
+        "value": "93736",
+        "reason": "The company reported positive net income."
+      },
+      {
+        "key": "operating_cash_flow",
+        "value": "118254",
+        "reason": "Operating activities generated positive cash flow."
+      },
+      {
+        "key": "investing_cash_flow",
+        "value": "2935",
+        "reason": "Investing activities produced a net cash inflow."
+      },
+      {
+        "key": "financing_cash_flow",
+        "value": "-121983",
+        "reason": "Financing activities produced a net cash outflow."
+      },
+      {
+        "key": "net_cash_change",
+        "value": "-794",
+        "reason": "Cash decreased over the period."
+      }
+    ],
+    "calculated_ratios": {
+      "current_ratio": {
+        "name": "Current Ratio",
+        "category": "liquidity_analysis",
+        "formula": "current_assets / current_liabilities",
+        "inputs": {
+          "current_assets": 152987,
+          "current_liabilities": 176392
+        },
+        "value": 0.8673,
+        "unit": "ratio"
+      },
+      "quick_ratio": {
+        "name": "Quick Ratio",
+        "category": "liquidity_analysis",
+        "formula": "(cash + short_term_investments + accounts_receivable) / current_liabilities",
+        "inputs": {
+          "cash": 29943,
+          "short_term_investments": 35228,
+          "accounts_receivable": 33410,
+          "current_liabilities": 176392
+        },
+        "value": 0.5589,
+        "unit": "ratio"
+      },
+      "cash_ratio": {
+        "name": "Cash Ratio",
+        "category": "liquidity_analysis",
+        "formula": "(cash + short_term_investments) / current_liabilities",
+        "inputs": {
+          "cash": 29943,
+          "short_term_investments": 35228,
+          "current_liabilities": 176392
+        },
+        "value": 0.3695,
+        "unit": "ratio"
+      },
+      "debt_to_equity": {
+        "name": "Debt-to-Equity",
+        "category": "solvency_analysis",
+        "formula": "total_debt / total_equity",
+        "inputs": {
+          "total_debt": 106629,
+          "total_equity": 56950
+        },
+        "value": 1.8723,
+        "unit": "ratio"
+      },
+      "debt_ratio": {
+        "name": "Debt Ratio",
+        "category": "solvency_analysis",
+        "formula": "total_debt / total_assets",
+        "inputs": {
+          "total_debt": 106629,
+          "total_assets": 364980
+        },
+        "value": 0.2922,
+        "unit": "ratio"
+      },
+      "liabilities_to_assets": {
+        "name": "Liabilities-to-Assets",
+        "category": "solvency_analysis",
+        "formula": "total_liabilities / total_assets",
+        "inputs": {
+          "total_liabilities": 308030,
+          "total_assets": 364980
+        },
+        "value": 0.844,
+        "unit": "ratio"
+      },
+      "gross_margin": {
+        "name": "Gross Margin",
+        "category": "profitability_analysis",
+        "formula": "(gross_profit / revenue) * 100",
+        "inputs": {
+          "gross_profit": 180683,
+          "revenue": 391035
+        },
+        "value": 46.21,
+        "unit": "percent"
+      },
+      "operating_margin": {
+        "name": "Operating Margin",
+        "category": "profitability_analysis",
+        "formula": "(operating_income / revenue) * 100",
+        "inputs": {
+          "operating_income": 123216,
+          "revenue": 391035
+        },
+        "value": 31.51,
+        "unit": "percent"
+      },
+      "net_profit_margin": {
+        "name": "Net Profit Margin",
+        "category": "profitability_analysis",
+        "formula": "(net_income / revenue) * 100",
+        "inputs": {
+          "net_income": 93736,
+          "revenue": 391035
+        },
+        "value": 23.97,
+        "unit": "percent"
+      },
+      "return_on_assets": {
+        "name": "Return on Assets",
+        "category": "profitability_analysis",
+        "formula": "(net_income / total_assets) * 100",
+        "inputs": {
+          "net_income": 93736,
+          "total_assets": 364980
+        },
+        "value": 25.68,
+        "unit": "percent"
+      },
+      "return_on_equity": {
+        "name": "Return on Equity",
+        "category": "profitability_analysis",
+        "formula": "(net_income / total_equity) * 100",
+        "inputs": {
+          "net_income": 93736,
+          "total_equity": 56950
+        },
+        "value": 164.59,
+        "unit": "percent"
+      },
+      "asset_turnover": {
+        "name": "Asset Turnover",
+        "category": "efficiency_analysis",
+        "formula": "revenue / total_assets",
+        "inputs": {
+          "revenue": 391035,
+          "total_assets": 364980
+        },
+        "value": 1.0714,
+        "unit": "times"
+      },
+      "inventory_turnover": {
+        "name": "Inventory Turnover",
+        "category": "efficiency_analysis",
+        "formula": "cost_of_goods_sold / inventory",
+        "inputs": {
+          "cost_of_goods_sold": 210352,
+          "inventory": 7286
+        },
+        "value": 28.8707,
+        "unit": "times"
+      },
+      "receivables_turnover": {
+        "name": "Receivables Turnover",
+        "category": "efficiency_analysis",
+        "formula": "revenue / accounts_receivable",
+        "inputs": {
+          "revenue": 391035,
+          "accounts_receivable": 33410
+        },
+        "value": 11.7041,
+        "unit": "times"
+      },
+      "cfo_to_current_liabilities": {
+        "name": "CFO / Current Liabilities",
+        "category": "cash_flow_analysis",
+        "formula": "operating_cash_flow / current_liabilities",
+        "inputs": {
+          "operating_cash_flow": 118254,
+          "current_liabilities": 176392
+        },
+        "value": 0.6704,
+        "unit": "ratio"
+      }
+    },
+    "unavailable_calculations": [
+      {
+        "calculation": "interest_coverage",
+        "name": "Interest Coverage",
+        "reason": "Required financial values are missing",
+        "missing_keys": [
+          "interest_expense"
+        ]
+      }
+    ]
+  },
+  "risk_assessment": {
+    "company": "Apple Inc.",
+    "fiscal_year": "FY2024",
+    "risk_factors": [
+      {
+        "id": "RF1",
+        "category": "liquidity_risk",
+        "title": "Current liabilities exceed current assets",
+        "level": "moderate",
+        "evidence": [
+          {
+            "type": "ratio",
+            "key": "current_ratio",
+            "name": "Current Ratio",
+            "value": 0.8673,
+            "unit": "ratio"
+          },
+          {
+            "type": "ratio",
+            "key": "quick_ratio",
+            "name": "Quick Ratio",
+            "value": 0.5589,
+            "unit": "ratio"
+          },
+          {
+            "type": "ratio",
+            "key": "cfo_to_current_liabilities",
+            "name": "CFO / Current Liabilities",
+            "value": 0.6704,
+            "unit": "ratio"
+          },
+          {
+            "type": "data",
+            "key": "operating_cash_flow",
+            "value": 118254
+          }
+        ],
+        "knowledge_refs": [
+          "K-LIQ-01",
+          "K-LIQ-02",
+          "K-LIQ-03"
+        ],
+        "interpretation": "The current ratio is 0.8673, meaning current liabilities exceed current assets. The quick ratio is 0.5589. This is partly mitigated by positive operating cash flow of 118,254 (CFO / current liabilities 0.6704)."
+      },
+      {
+        "id": "RF2",
+        "category": "solvency_risk",
+        "title": "Reliance on debt financing",
+        "level": "moderate",
+        "evidence": [
+          {
+            "type": "ratio",
+            "key": "debt_to_equity",
+            "name": "Debt-to-Equity",
+            "value": 1.8723,
+            "unit": "ratio"
+          },
+          {
+            "type": "ratio",
+            "key": "debt_ratio",
+            "name": "Debt Ratio",
+            "value": 0.2922,
+            "unit": "ratio"
+          },
+          {
+            "type": "ratio",
+            "key": "liabilities_to_assets",
+            "name": "Liabilities-to-Assets",
+            "value": 0.844,
+            "unit": "ratio"
+          },
+          {
+            "type": "data",
+            "key": "total_equity",
+            "value": 56950
+          }
+        ],
+        "knowledge_refs": [
+          "K-SOL-01",
+          "K-SOL-02"
+        ],
+        "interpretation": "Debt-to-equity is 1.8723, meaning debt exceeds shareholders' equity. The debt ratio (debt / total assets) is 0.2922. A low equity balance (for example after share buybacks) can raise this ratio without new borrowing."
+      },
+      {
+        "id": "RF3",
+        "category": "profitability_risk",
+        "title": "Positive margins",
+        "level": "low",
+        "evidence": [
+          {
+            "type": "ratio",
+            "key": "gross_margin",
+            "name": "Gross Margin",
+            "value": 46.21,
+            "unit": "percent"
+          },
+          {
+            "type": "ratio",
+            "key": "operating_margin",
+            "name": "Operating Margin",
+            "value": 31.51,
+            "unit": "percent"
+          },
+          {
+            "type": "ratio",
+            "key": "net_profit_margin",
+            "name": "Net Profit Margin",
+            "value": 23.97,
+            "unit": "percent"
+          },
+          {
+            "type": "ratio",
+            "key": "return_on_equity",
+            "name": "Return on Equity",
+            "value": 164.59,
+            "unit": "percent"
+          },
+          {
+            "type": "ratio",
+            "key": "return_on_assets",
+            "name": "Return on Assets",
+            "value": 25.68,
+            "unit": "percent"
+          }
+        ],
+        "knowledge_refs": [
+          "K-PRO-01",
+          "K-PRO-02",
+          "K-PRO-03"
+        ],
+        "interpretation": "The company is profitable at every level reported (gross margin 46.21%, operating margin 31.51%, net profit margin 23.97%). Return on equity (164.59%) should be read alongside return on assets (25.68%), because a small equity base inflates ROE."
+      },
+      {
+        "id": "RF4",
+        "category": "cash_flow_risk",
+        "title": "Positive operating cash flow",
+        "level": "low",
+        "evidence": [
+          {
+            "type": "data",
+            "key": "operating_cash_flow",
+            "value": 118254
+          },
+          {
+            "type": "data",
+            "key": "net_income",
+            "value": 93736
+          },
+          {
+            "type": "data",
+            "key": "financing_cash_flow",
+            "value": -121983
+          },
+          {
+            "type": "data",
+            "key": "net_cash_change",
+            "value": -794
+          }
+        ],
+        "knowledge_refs": [
+          "K-CF-01",
+          "K-CF-02",
+          "K-CF-03"
+        ],
+        "interpretation": "Operating cash flow is positive (118,254). Financing cash flow of -121,983 reflects net payments to capital providers (e.g. debt repayment, dividends or buybacks)."
+      }
+    ],
+    "category_assessments": [
+      {
+        "category": "liquidity_risk",
+        "level": "moderate",
+        "summary": "The current ratio is 0.8673, meaning current liabilities exceed current assets. The quick ratio is 0.5589. This is partly mitigated by positive operating cash flow of 118,254 (CFO / current liabilities 0.6704)."
+      },
+      {
+        "category": "solvency_risk",
+        "level": "moderate",
+        "summary": "Debt-to-equity is 1.8723, meaning debt exceeds shareholders' equity. The debt ratio (debt / total assets) is 0.2922. A low equity balance (for example after share buybacks) can raise this ratio without new borrowing."
+      },
+      {
+        "category": "profitability_risk",
+        "level": "low",
+        "summary": "The company is profitable at every level reported (gross margin 46.21%, operating margin 31.51%, net profit margin 23.97%)."
+      },
+      {
+        "category": "cash_flow_risk",
+        "level": "low",
+        "summary": "Operating cash flow is positive (118,254). Financing cash flow of -121,983 reflects net payments to capital providers (e.g. debt repayment, dividends or buybacks)."
+      }
+    ],
+    "overall_assessment": {
+      "level": "moderate",
+      "summary": "Rule-based assessment (LLM unavailable). The overall level is the highest category level: moderate. liquidity risk: moderate; solvency risk: moderate; profitability risk: low; cash flow risk: low.",
+      "key_drivers": [
+        "RF1",
+        "RF2"
+      ]
+    },
+    "recommendations": [
+      {
+        "text": "Monitor short-term obligations against operating cash flow, and compare the liquidity ratios with industry peers and prior years.",
+        "related_risk_factors": [
+          "RF1"
+        ]
+      },
+      {
+        "text": "Review the debt maturity schedule and the reasons for the low equity balance before drawing conclusions on leverage.",
+        "related_risk_factors": [
+          "RF2"
+        ]
+      },
+      {
+        "text": "Add prior-year figures and industry benchmarks to turn this single-year snapshot into a trend and peer comparison.",
+        "related_risk_factors": []
+      }
+    ],
+    "limitations": [
+      "Generated by the rule-based fallback because the LLM was unavailable; interpretation is less detailed.",
+      "Efficiency ratios are reported but not rated, because rating them requires industry benchmarks.",
+      "interest_coverage could not be calculated (missing: interest_expense)."
+    ],
+    "benchmarks_unavailable": [
+      "Industry current and quick ratios",
+      "Industry profit margins",
+      "Industry asset, inventory and receivables turnover"
+    ],
+    "validation_notes": [],
+    "generated_by": {
+      "method": "rule_based",
+      "llm_error": "Gemini API error 429 (model gemini-3.8-flash): {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 7h19m34.180652655s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n"
+    },
+    "retrieved_knowledge": [
+      {
+        "id": "K-PRO-01",
+        "title": "Margin analysis",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "gross_margin",
+          "operating_margin",
+          "net_profit_margin",
+          "net_income",
+          "profitability_analysis",
+          "income_statement_analysis"
+        ]
+      },
+      {
+        "id": "K-EFF-01",
+        "title": "Turnover ratios",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "asset_turnover",
+          "inventory_turnover",
+          "receivables_turnover",
+          "efficiency_analysis"
+        ]
+      },
+      {
+        "id": "K-LIQ-03",
+        "title": "Operating cash flow relative to current liabilities",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "cfo_to_current_liabilities",
+          "operating_cash_flow",
+          "cash_flow_analysis"
+        ]
+      },
+      {
+        "id": "K-SOL-02",
+        "title": "Debt ratio versus liabilities-to-assets",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "debt_ratio",
+          "liabilities_to_assets",
+          "balance_sheet_analysis"
+        ]
+      },
+      {
+        "id": "K-CF-02",
+        "title": "Operating cash flow versus net income",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "operating_cash_flow",
+          "net_income",
+          "cash_flow_analysis"
+        ]
+      },
+      {
+        "id": "K-LIQ-01",
+        "title": "Current ratio below 1.0",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "current_ratio",
+          "liquidity_analysis"
+        ]
+      },
+      {
+        "id": "K-LIQ-02",
+        "title": "Quick ratio and cash ratio",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "quick_ratio",
+          "cash_ratio"
+        ]
+      },
+      {
+        "id": "K-SOL-01",
+        "title": "Debt-to-equity and low equity balances",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "debt_to_equity",
+          "solvency_analysis"
+        ]
+      },
+      {
+        "id": "K-SOL-03",
+        "title": "Interest coverage unavailable",
+        "kind": "rule",
+        "source": "FinRisk data rule (spec section 24)",
+        "matched_terms": [
+          "interest_coverage",
+          "interest_expense"
+        ]
+      },
+      {
+        "id": "K-PRO-02",
+        "title": "Return on equity inflated by low equity",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "return_on_equity",
+          "net_income"
+        ]
+      },
+      {
+        "id": "K-CF-01",
+        "title": "Negative financing cash flow",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "financing_cash_flow",
+          "cash_flow_statement_analysis"
+        ]
+      },
+      {
+        "id": "K-CF-03",
+        "title": "Net change in cash",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "net_cash_change",
+          "investing_cash_flow"
+        ]
+      },
+      {
+        "id": "K-PRO-03",
+        "title": "Return on assets",
+        "kind": "rule",
+        "source": "General financial statement analysis principle (add citation)",
+        "matched_terms": [
+          "return_on_assets"
+        ]
+      },
+      {
+        "id": "K-GEN-01",
+        "title": "Single-period analysis limitation",
+        "kind": "rule",
+        "source": "FinRisk methodology note",
+        "matched_terms": []
+      },
+      {
+        "id": "DOC-ratio_definitions-8",
+        "title": "Interest coverage",
+        "kind": "document",
+        "source": "knowledge/docs/ratio_definitions.md",
+        "matched_terms": [
+          "text search"
+        ]
+      },
+      {
+        "id": "DOC-ratio_definitions-3",
+        "title": "Quick ratio",
+        "kind": "document",
+        "source": "knowledge/docs/ratio_definitions.md",
+        "matched_terms": [
+          "text search"
+        ]
+      },
+      {
+        "id": "DOC-ratio_definitions-17",
+        "title": "Operating cash flow to current liabilities",
+        "kind": "document",
+        "source": "knowledge/docs/ratio_definitions.md",
+        "matched_terms": [
+          "text search"
+        ]
+      }
+    ]
+  },
+  "pdf_generated": true
+}

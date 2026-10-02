@@ -1,0 +1,5 @@
+node_modules/
+.env
+uploads/*
+reports/*dist/
+finrisk-backend/test/last-report*.pdf
